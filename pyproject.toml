@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.13.7"
 dependencies = [
-    "gradio==5.40.0",
+    "gradio==5.42.0",
 ]
 
 [dependency-groups]
