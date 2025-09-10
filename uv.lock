@@ -188,7 +188,7 @@ wheels = [
 
 [[package]]
 name = "gradio"
-version = "5.42.0"
+version = "5.45.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiofiles" },
@@ -222,9 +222,9 @@ dependencies = [
     { name = "urllib3", marker = "sys_platform == 'emscripten'" },
     { name = "uvicorn", marker = "sys_platform != 'emscripten'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c3/17/0903bce14b1f80893ae0f3e29329159cf4cf8ddb11ee039f5b7ddb846ace/gradio-5.42.0.tar.gz", hash = "sha256:74c8e18a3e6b7bd26396e8ed949521c0cde9bed68a15f589a9706f7cbcb8685f", size = 71665861, upload-time = "2025-08-08T20:22:08.427Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0d/b9/d59c42dd5ff595bd55032178442724f3d64a23a6ded0bb0ec878cdd0733c/gradio-5.45.0.tar.gz", hash = "sha256:a45a0c868566d1db27cf77994a8f529fe5ce5b2673b9d2b9f3d99b4fbc1f89c7", size = 72287188, upload-time = "2025-09-10T17:06:22.696Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d6/b6/be0898391fe9b34d591df564bb8f3790a69fd2e4d4f30c93c76abbcf48f2/gradio-5.42.0-py3-none-any.whl", hash = "sha256:3e11c076f4eaa2d545fb176551a2a72e951374882b8543aeebd45739085da5d2", size = 59678676, upload-time = "2025-08-08T20:22:03.166Z" },
+    { url = "https://files.pythonhosted.org/packages/38/45/d3e732ce761c56ff9149bbd30da7d8ec89d000ee89e18a96a49217a5f4fb/gradio-5.45.0-py3-none-any.whl", hash = "sha256:71f3fdefa9a0f64d4bf48ebdb132e287bf81679be094124144dd55fbcf538097", size = 60350057, upload-time = "2025-09-10T17:06:18.043Z" },
 ]
 
 [[package]]
@@ -242,7 +242,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "gradio", specifier = "==5.42.0" }]
+requires-dist = [{ name = "gradio", specifier = "==5.45.0" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -252,7 +252,7 @@ dev = [
 
 [[package]]
 name = "gradio-client"
-version = "1.11.1"
+version = "1.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fsspec" },
@@ -262,9 +262,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e2/cf/30be9f91c506cbec5d425f3bd56cd762d69d4517197ddd9e9d69b735d821/gradio_client-1.11.1.tar.gz", hash = "sha256:0d4885fea23b0d5ff8f4c34824839e0aa7fd1ba4f120928a7fc3a6ebde42abab", size = 322518, upload-time = "2025-08-08T20:22:17.17Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/16/70/c2989a14bfb3975ca4923463b2e01eb917a79f8842aac48cb472a133cf26/gradio_client-1.13.0.tar.gz", hash = "sha256:07de7e8e58553335d56e0c7db6af60f1205fd1f167bf07f3e0f587888695a8f3", size = 322963, upload-time = "2025-09-10T17:06:32.23Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c1/fe/b9d63453c4c3044ee96b4c7ac6b4331c543ca8d9195b2cd9ba299ecb6509/gradio_client-1.11.1-py3-none-any.whl", hash = "sha256:eb7870c2eb0c18f22613f0635a50ca805fdf6e8ddeb71d9f06b398b876372487", size = 324526, upload-time = "2025-08-08T20:22:16.035Z" },
+    { url = "https://files.pythonhosted.org/packages/92/aa/8ad1cc8be082867aaa941aae30a38d68db9fbaf4306a51143307acd79b7a/gradio_client-1.13.0-py3-none-any.whl", hash = "sha256:4489ebd07ae40c6cc7a6a02cf60a53e9e3345aa5342a3814c356775bbad64bbc", size = 325012, upload-time = "2025-09-10T17:06:30.721Z" },
 ]
 
 [[package]]
